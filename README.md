@@ -39,6 +39,18 @@ It is advised to reboot the Pi after this step by typing ```sudo reboot```.
 
 8. The GPS decoding deamon should be up and running now. To check if it is able to receive and parse the GPS data run the following command: ```sudo gpsmon```
 
+### Downloading the example code
+
+Use git clone to download the repository:
+```
+git clone https://github.com/WhaddaMakers/Neo-6M-RPi-GPS-shield.git
+```
+Navigate to the folder with the example code:
+```
+cd Neo-6M-RPi-GPS-shield
+```
+
+
 ### Installing the required python modules
 
 Install the required python libraries by runnning the following command:
@@ -50,8 +62,13 @@ pip3 install -r requirements.txt
 Requirements list:
 * [gpsd-py3](https://github.com/MartijnBraam/gpsd-py3)
 
+
 ## Running the example code
 
+You can run the example by using the following command:
 
+```
+python3 gps_3.py
+```
 
-
+If the GPS module has a fix, it prints out the current GPS position (latitude, longitude), time and the number of satellites in sight.
