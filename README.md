@@ -1,5 +1,6 @@
 # Whadda NEO-6M GPS shield for RPi example code
 
+![](./wpsh456.jpg)
 This example shows you how you can use the GPS data from the GPS module in your own python scripts.
 The example python file prints the current GPS position (latitude, longitude), time and the number of satellites in sight.
 
@@ -8,7 +9,7 @@ The example python file prints the current GPS position (latitude, longitude), t
 For this example to work properly, **gpsd** needs to be installed and configured properly. 
 
 ### Installing and configuring gpsd
-Follow the steps in the manual of the Whadda NEO-6M GPS shield, available from the whadda.com website. In short:
+Follow the steps in the manual of the Whadda NEO-6M GPS shield, available from the [whadda.com product page](http://www.velleman.eu/products/view/?id=461496&lang=en). In short:
 
 
 1. Enable the serial interface (necessary to communicate with the GPS shield) by running 
